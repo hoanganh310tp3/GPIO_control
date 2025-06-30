@@ -1,1 +1,1 @@
-savedcmd_/home/hoanganhpham/Mock_project/driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/hoanganhpham/Mock_project/driver/Module.symvers -T /home/hoanganhpham/Mock_project/driver/modules.order -i Module.symvers -e 
+savedcmd_/home/hoanganhpham/Mock_project/Mock_project_1/driver/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/hoanganhpham/Mock_project/Mock_project_1/driver/Module.symvers -T /home/hoanganhpham/Mock_project/Mock_project_1/driver/modules.order -i Module.symvers -e 

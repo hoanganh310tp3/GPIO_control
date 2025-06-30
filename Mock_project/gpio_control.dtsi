@@ -1,0 +1,36 @@
+/ {
+    gpio_led: gpio-led-control {
+        compatible = "custom,gpio-led";
+        status = "okay";
+
+        led-gpios = <&gpio 25 0>, <&gpio 24 0>, <&gpio 23 0>;
+
+        pinctrl-names = "default";
+        pinctrl-0 = <&gpio_led_pins>;
+    };
+
+    gpio_button: gpio-button-input {
+        compatible = "custom,gpio-button";
+        status = "okay";
+
+        button-gpios = <&gpio 16 0>;  // GPIO16 cho Button
+
+        pinctrl-names = "default";
+        pinctrl-0 = <&gpio_button_pins>;
+    };
+};
+
+&gpio {
+    gpio_led_pins: gpio_led_pins {
+        brcm,pins = <25 24 23>;
+        brcm,function = <1 1 1>;     // Output
+        brcm,pull = <0 0 0>;         // No pull
+    };
+
+    gpio_button_pins: gpio_button_pins {
+        brcm,pins = <16>;
+        brcm,function = <0>;     // Input
+        brcm,pull = <2>;         // Pull-up
+    };
+};
+ 

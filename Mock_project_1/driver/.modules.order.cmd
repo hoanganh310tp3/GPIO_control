@@ -1,1 +1,1 @@
-savedcmd_/home/hoanganhpham/Mock_project/driver/modules.order := {   echo /home/hoanganhpham/Mock_project/driver/gpio_driver.o; :; } > /home/hoanganhpham/Mock_project/driver/modules.order
+savedcmd_/home/hoanganhpham/Mock_project/Mock_project_1/driver/modules.order := {   echo /home/hoanganhpham/Mock_project/Mock_project_1/driver/gpio_driver.o; :; } > /home/hoanganhpham/Mock_project/Mock_project_1/driver/modules.order

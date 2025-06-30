@@ -1,1 +1,1 @@
-savedcmd_/home/hoanganhpham/Mock_project/driver/gpio_driver.mod := printf '%s\n'   gpio_driver.o | awk '!x[$$0]++ { print("/home/hoanganhpham/Mock_project/driver/"$$0) }' > /home/hoanganhpham/Mock_project/driver/gpio_driver.mod
+savedcmd_/home/hoanganhpham/Mock_project/Mock_project_1/driver/gpio_driver.mod := printf '%s\n'   gpio_driver.o | awk '!x[$$0]++ { print("/home/hoanganhpham/Mock_project/Mock_project_1/driver/"$$0) }' > /home/hoanganhpham/Mock_project/Mock_project_1/driver/gpio_driver.mod

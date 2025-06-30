@@ -1,0 +1,15 @@
+menu "My Custom Drivers"
+
+config LED_DRIVER
+    bool "LED GPIO Driver"
+    default y
+    help
+      Enables a GPIO LED platform driver.
+
+config BUTTON_DRIVER
+    bool "Button GPIO Driver"
+    default y
+    help
+      Enables a GPIO Button platform driver.
+
+endmenu
